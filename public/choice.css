@@ -1,0 +1,101 @@
+body{
+  background: #373737 url("bg.png") 0 0 repeat;
+}
+div.content
+{
+  padding-right: 25%;
+  padding-left: 25%;
+}
+div.header
+{
+	white-space: nowrap;
+	border-bottom: solid;
+	text-align: center;
+}
+
+div.songs
+{
+
+  padding-right: 25%;
+  padding-left: 25%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+div.left
+{
+	float:left;
+}
+
+div.songsButtonLeft
+{
+}
+
+div.songsLeftContent
+{
+	padding-top: : 5px;
+	border-width: 1px;
+	text-align: left;
+	font-weight: 300;
+	color: #a8a7a8;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+	font-size: 15px;
+}
+
+div.right
+{
+	float:right;
+}
+div.songsButtonRight
+{
+}
+div.songsRightContent
+{
+	padding-top: : 5px;
+	border-width: 1px;
+	text-align: left;
+	font-weight: 300;
+	color: #a8a7a8;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+	font-size: 15px;
+}
+
+p
+{
+	padding-top: 15px;
+	position: relative;
+	margin: 20px auto;
+	width: 400px;
+	padding-right: 32px;
+	font-weight: 300;
+	color: #a8a7a8;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+	font-size: 25px;
+}
+
+button
+{
+	background:#25A6E1;
+	background:-moz-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#25A6E1),color-stop(100%,#188BC0));
+	background:-webkit-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:-o-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:-ms-linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	background:linear-gradient(top,#25A6E1 0%,#188BC0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#25A6E1',endColorstr='#188BC0',GradientType=0);
+	padding:8px 13px;
+	font-weight: 300;
+	color: #D5D2D5;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.8);
+	font-size: 25px;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:17px;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border:1px solid #1A87B9;
+}
+
+
+.minwidth1 { min-width:1300px; width: auto !important; width: 1300px; }
+.minwidth { min-width:625px; width: auto !important; width: 625px; }

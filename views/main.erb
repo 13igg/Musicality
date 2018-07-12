@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Musicality!!!
+		</title>
+		<link rel="stylesheet" href="/main.css">
+		<!-- jquery -->
+		<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>		
+		<script src="/js/main.js"></script>
+
+	</head>
+	<body onload="onLoad()">
+	<div class="all">
+	<div class = "minwidth2">
+		<div class= "selection" id="selection">
+			<p class="thicker">Enter the name of an artist</p>
+			<div class = "minwidth1">
+				<input id='artist_name' class="text" type='text' />
+				<input id='search_artist_button' class="searchbtn" value='Search' type='submit' onclick="createSuggestionList()" /> 
+			</div>
+		</div>	
+	</div>
+		<div class = "content" id="content">
+			<div class = "minwidth">
+				<div class = "topX" id="topX">
+				</div>
+				<div class = "artists" id="artists">
+				</div>
+			</div>
+		</div>
+	</div>
+	</body>
+</html>
+
+
